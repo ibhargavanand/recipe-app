@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.all-recipes {
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.each-recipe {
+  width: 25%;
+  margin-bottom: 20px;
+}
+.recipe-ingredients-item {
+  list-style-type: none;
+}
+.recipe-instructions-button {
+  margin-bottom: 50px;
+}
+/* .recipe-modal .carousel{
+  background-color: gray;
+} */
+.recipe-carousel-main-text {
+  min-height: 300px;
+}
